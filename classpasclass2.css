@@ -1,0 +1,93 @@
+#Exercice {
+	position: center;
+	padding-left: 520px;
+	background-image :url(image/image/mur.jpg);
+	background-size: cover;
+	background-position: center ;
+	background-repeat: no-repeat ;
+	padding-top-image : 600px ;
+	
+	
+	
+}
+
+#presentation {
+	text-align:center;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1em;
+	text-shadow: 1px 1px, 0 0 1em, 0 0 0.2em black;
+	background-color: #DCDCDC;
+	
+}
+
+
+.l1,
+.l2,
+.l3,
+.l4,
+.l5,
+.c1,
+.c2,
+.c3,
+.c4,
+.c5 {
+    content: '';
+}
+
+.rond,
+.carre,
+.losange {
+    position: relative;
+    display: inline-block;
+    content: ' ';
+    width: 100px;
+    height: 100px;
+    border: 3px solid rgba(0, 0, 0, 1);
+    background-color: transparent;
+    margin: 20px;
+	
+}
+
+.rond {
+    border-radius: 50%;
+}
+
+.carre {}
+
+.losange {  
+    transform: rotate(-45deg);
+}
+
+.fond{
+    background-color: #48D1CC;
+}
+
+
+
+.button1 {
+    background-color: #555555;
+	border-radius: 75px 25px;
+    border: none;
+    color: #48D1CC ;
+    padding: 15px 35px;
+	padding-left:55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.button2 {
+    background-color: #555555;
+	border-radius: 75px 25px;
+    border: none;
+    color: #48D1CC;
+    padding: 15px 35px;
+	padding-left:55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+
