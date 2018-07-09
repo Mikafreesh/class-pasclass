@@ -1,0 +1,69 @@
+body {
+  background-color: darkgrey;
+
+}
+
+img {
+  display: block;
+  position: absolute;
+  padding-top: 220px;
+  padding-left: 550px;
+
+}
+
+#conteneur1 {
+  display: inline-block;
+  position: absolute;
+
+
+
+
+}
+
+
+#carre3 {
+  height: 50px;
+  width: 50px;
+  background: red;
+  border: 3px solid black;
+  -ms-transform: rotate(45deg);
+  /* Internet Explorer */
+  -moz-transform: rotate(45deg);
+  /* Firefox */
+  -webkit-transform: rotate(45deg);
+  /* Safari et Chrome */
+  -o-transform: rotate(45deg);
+  /* Opera */
+}
+
+#cercle1 {
+
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background: red;
+  -ms-transform: rotate(45deg);
+  /* Internet Explorer */
+  -moz-transform: rotate(45deg);
+  /* Firefox */
+  -webkit-transform: rotate(45deg);
+  /* Safari et Chrome */
+  -o-transform: rotate(45deg);
+  /* Opera */
+}
+
+#cercle2 {
+  margin-left: 50px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background: red;
+  -ms-transform: rotate(45deg);
+  /* Internet Explorer */
+  -moz-transform: rotate(45deg);
+  /* Firefox */
+  -webkit-transform: rotate(45deg);
+  /* Safari et Chrome */
+  -o-transform: rotate(45deg);
+  /* Opera */
+}
